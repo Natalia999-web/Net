@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Natalia\\CRUDnativo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\crudnativo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\crudnativo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|d:\\natalia\\crudnativo\\crudnativo\\migrations\\20251107204117_iniciar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623EAA5B-9276-4CBB-9B39-5F7B6872E307}|CRUDnativo\\CRUDnativo.csproj|solutionrelative:crudnativo\\migrations\\20251107204117_iniciar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDnativo\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "CRUDnativo\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T20:34:40.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "CRUDnativo\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "CRUDnativo\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T20:16:44.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CRUDnativo\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CRUDnativo\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T21:16:18.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDnativo\\Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "CRUDnativo\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T20:35:56.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Models\\Productos.cs",
+              "RelativeDocumentMoniker": "CRUDnativo\\Models\\Productos.cs",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Models\\Productos.cs",
+              "RelativeToolTip": "CRUDnativo\\Models\\Productos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T20:08:45.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CRUDnativo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CRUDnativo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T21:11:42.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Data\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CRUDnativo\\Data\\AplicationDbContext.cs",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Data\\AplicationDbContext.cs",
+              "RelativeToolTip": "CRUDnativo\\Data\\AplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T21:20:22.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUDnativo\\appsettings.json",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\appsettings.json",
+              "RelativeToolTip": "CRUDnativo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-07T20:12:19.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDnativo\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "CRUDnativo\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T20:37:36.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Program.cs",
+              "RelativeDocumentMoniker": "CRUDnativo\\Program.cs",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Program.cs",
+              "RelativeToolTip": "CRUDnativo\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T20:08:51.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20251107204117_iniciar.cs",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Migrations\\20251107204117_iniciar.cs",
+              "RelativeDocumentMoniker": "CRUDnativo\\Migrations\\20251107204117_iniciar.cs",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Migrations\\20251107204117_iniciar.cs",
+              "RelativeToolTip": "CRUDnativo\\Migrations\\20251107204117_iniciar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T20:41:17.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDnativo\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "CRUDnativo\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T20:36:30.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CRUDnativo\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CRUDnativo\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T21:17:28.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CRUDnativo\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CRUDnativo\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-04T21:15:21.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CRUDnativo.csproj",
+              "DocumentMoniker": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\CRUDnativo.csproj",
+              "RelativeDocumentMoniker": "CRUDnativo\\CRUDnativo.csproj",
+              "ToolTip": "D:\\Natalia\\CRUDnativo\\CRUDnativo\\CRUDnativo.csproj",
+              "RelativeToolTip": "CRUDnativo\\CRUDnativo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-04T21:13:52.47Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

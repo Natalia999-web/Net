@@ -1,0 +1,35 @@
+﻿@model IEnumerable<AngieGiraldo.Models.Venta>
+
+<h1>Lista de Ventas</h1>
+<a asp-action="Create" asp-controller="Venta">Registrar nueva venta</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(v => v.IdVenta)</th>
+            <th>Cliente</th>
+            <th>Producto</th>
+            <th>@Html.DisplayNameFor(v => v.Cantidad)</th>
+            <th>@Html.DisplayNameFor(v => v.FechaVenta)</th>
+            <th>@Html.DisplayNameFor(v => v.Total)</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var venta in Model)
+        {
+            <tr>
+                <td>@venta.IdVenta</td>
+                <td>@venta.Cliente?.Nombre</td>
+                <td>@venta.Producto?.Nombre</td>
+                <td>@venta.Cantidad</td>
+                <td>@venta.FechaVenta.ToShortDateString()</td>
+                <td>@venta.Total</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@venta.IdVenta">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@venta.IdVenta">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

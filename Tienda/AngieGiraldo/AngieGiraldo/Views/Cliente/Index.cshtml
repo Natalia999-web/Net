@@ -1,0 +1,31 @@
+﻿@model IEnumerable<AngieGiraldo.Models.Cliente>
+
+<h1>Lista de Clientes</h1>
+<a asp-action="Create" asp-controller="Cliente">Crear nuevo cliente</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(c => c.IdCliente)</th>
+            <th>@Html.DisplayNameFor(c => c.Nombre)</th>
+            <th>@Html.DisplayNameFor(c => c.Correo)</th>
+            <th>@Html.DisplayNameFor(c => c.Telefono)</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cliente in Model)
+        {
+            <tr>
+                <td>@cliente.IdCliente</td>
+                <td>@cliente.Nombre</td>
+                <td>@cliente.Correo</td>
+                <td>@cliente.Telefono</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@cliente.IdCliente">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@cliente.IdCliente">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

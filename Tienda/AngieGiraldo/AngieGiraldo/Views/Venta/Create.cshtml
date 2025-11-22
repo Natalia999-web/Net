@@ -1,0 +1,41 @@
+﻿@model AngieGiraldo.Models.Venta
+
+<div class="col-sm-10">
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label asp-for="IdCliente" class="control-label">Cliente</label>
+            <select asp-for="IdCliente" class="form-control" asp-items="ViewBag.Clientes">
+                <option value="">Seleccione un cliente</option>
+            </select>
+            <span asp-validation-for="IdCliente" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="IdProducto" class="control-label">Producto</label>
+            <select asp-for="IdProducto" class="form-control" asp-items="ViewBag.Productos">
+                <option value="">Seleccione un producto</option>
+            </select>
+            <span asp-validation-for="IdProducto" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Cantidad" class="control-label"></label>
+            <input asp-for="Cantidad" class="form-control" />
+            <span asp-validation-for="Cantidad" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="FechaVenta" class="control-label"></label>
+            <input asp-for="FechaVenta" type="date" class="form-control" />
+            <span asp-validation-for="FechaVenta" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Total" class="control-label"></label>
+            <input asp-for="Total" class="form-control" />
+            <span asp-validation-for="Total" class="text-danger"></span>
+        </div>
+
+        <input type="submit" value="Registrar Venta" class="btn btn-primary" />
+    </form>
+</div>
