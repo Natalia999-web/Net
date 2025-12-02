@@ -1,0 +1,471 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\venta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\venta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\cliente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\cliente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\cliente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\cliente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\cliente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\cliente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\venta\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\venta\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\venta\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\venta\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\venta\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\venta\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\angiegiraldo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\angiegiraldo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|c:\\users\\user\\desktop\\angienatalia\\tienda\\angiegiraldo\\angiegiraldo\\migrations\\20251110213346_inicia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81842CA0-4CD4-43BD-9BD0-8953A7063B17}|AngieGiraldo\\AngieGiraldo.csproj|solutionrelative:angiegiraldo\\migrations\\20251110213346_inicia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Cliente\\Create.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Cliente\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Cliente\\Create.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Cliente\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Cliente\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Cliente\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Cliente\\Delete.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Cliente\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Productos\\Create.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Productos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Productos\\Create.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Productos\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Productos\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Venta\\Index.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Venta\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Venta\\Index.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Venta\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Cliente\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Cliente\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Cliente\\Edit.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Cliente\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Models\\Cliente.cs",
+              "RelativeToolTip": "AngieGiraldo\\Models\\Cliente.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:32:31.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "AngieGiraldo\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAuwAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:32:31.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Venta\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Venta\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Venta\\Edit.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Venta\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Venta\\Create.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Venta\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Venta\\Create.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Venta\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\appsettings.json",
+              "RelativeDocumentMoniker": "AngieGiraldo\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\appsettings.json",
+              "RelativeToolTip": "AngieGiraldo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-30T17:32:31.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Venta\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Venta\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Venta\\Delete.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Venta\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Productos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Productos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Productos\\Edit.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Productos\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Productos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Views\\Productos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Views\\Productos\\Delete.cshtml",
+              "RelativeToolTip": "AngieGiraldo\\Views\\Productos\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T17:32:31.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Models\\Productos.cs",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Models\\Productos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Models\\Productos.cs",
+              "RelativeToolTip": "AngieGiraldo\\Models\\Productos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:32:31.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Data\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Data\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Data\\AplicationDbContext.cs",
+              "RelativeToolTip": "AngieGiraldo\\Data\\AplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:32:31.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Models\\Venta.cs",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Models\\Venta.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Models\\Venta.cs",
+              "RelativeToolTip": "AngieGiraldo\\Models\\Venta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:32:31.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "AngieGiraldo\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:32:31.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AngieGiraldo\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:32:31.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "AngieGiraldo\\Controllers\\ProductosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:32:31.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VentaController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Controllers\\VentaController.cs",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Controllers\\VentaController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Controllers\\VentaController.cs",
+              "RelativeToolTip": "AngieGiraldo\\Controllers\\VentaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:32:31.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AngieGiraldo.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\AngieGiraldo.csproj",
+              "RelativeDocumentMoniker": "AngieGiraldo\\AngieGiraldo.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\AngieGiraldo.csproj",
+              "RelativeToolTip": "AngieGiraldo\\AngieGiraldo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-30T17:32:31.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20251110213346_inicia.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Migrations\\20251110213346_inicia.cs",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Migrations\\20251110213346_inicia.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Migrations\\20251110213346_inicia.cs",
+              "RelativeToolTip": "AngieGiraldo\\Migrations\\20251110213346_inicia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:32:32.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Program.cs",
+              "RelativeDocumentMoniker": "AngieGiraldo\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AngieNatalia\\Tienda\\AngieGiraldo\\AngieGiraldo\\Program.cs",
+              "RelativeToolTip": "AngieGiraldo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:32:32.097Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

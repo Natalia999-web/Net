@@ -1,0 +1,364 @@
+﻿@model IEnumerable<produccion.Models.TbCategoriaProducto>
+
+@{
+    ViewData["Title"] = "Gestión de Categorías de Productos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .page-header {
+        background: linear-gradient(135deg, var(--verde-principal) 0%, var(--verde-oscuro) 100%);
+        color: black;
+        padding: 2rem;
+        border-radius: 12px;
+        margin-bottom: 2rem;
+        box-shadow: 0 8px 25px rgba(16, 185, 129, 0.3);
+    }
+
+    .stats-card {
+        background: white;
+        border-radius: 12px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        border-left: 4px solid var(--verde-principal);
+        transition: all 0.3s ease;
+    }
+
+        .stats-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+
+    .stats-number {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--verde-oscuro);
+        margin-bottom: 0.5rem;
+    }
+
+    .stats-label {
+        color: #6B7280;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.875rem;
+        letter-spacing: 0.5px;
+    }
+
+    .filter-card {
+        background: white;
+        border-radius: 12px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        margin-bottom: 2rem;
+        border: 1px solid var(--verde-borde);
+    }
+
+    .table-container {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        overflow: hidden;
+        border: 1px solid var(--verde-borde);
+    }
+
+    .table-header {
+        background: linear-gradient(135deg, var(--verde-principal) 0%, var(--verde-oscuro) 100%);
+        color: white;
+        padding: 1.5rem;
+    }
+
+    .table th {
+        background-color: var(--verde-fondo);
+        color: var(--verde-oscuro);
+        font-weight: 600;
+        padding: 1rem;
+        border-bottom: 2px solid var(--verde-borde);
+    }
+
+    .table td {
+        padding: 1rem;
+        vertical-align: middle;
+        border-bottom: 1px solid #E5E7EB;
+    }
+
+    .badge-activa {
+        background: linear-gradient(135deg, #10B981, #34D399);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 0.875rem;
+    }
+
+    .badge-inactiva {
+        background: linear-gradient(135deg, #EF4444, #F87171);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 0.875rem;
+    }
+
+    .btn-action {
+        padding: 0.5rem;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin: 0 2px;
+    }
+
+    .btn-edit {
+        background: linear-gradient(135deg, #F59E0B, #FBBF24);
+        color: white;
+        border: none;
+    }
+
+        .btn-edit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+        }
+
+    .btn-delete {
+        background: linear-gradient(135deg, #EF4444, #F87171);
+        color: white;
+        border: none;
+    }
+
+        .btn-delete:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+        }
+
+    .btn-details {
+        background: linear-gradient(135deg, #3B82F6, #60A5FA);
+        color: white;
+        border: none;
+    }
+
+        .btn-details:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+        }
+
+    .search-box {
+        border: 2px solid var(--verde-borde);
+        border-radius: 8px;
+        padding: 0.75rem 1rem;
+        transition: all 0.3s ease;
+    }
+
+        .search-box:focus {
+            border-color: var(--verde-principal);
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+        }
+
+    .form-select {
+        border: 2px solid var(--verde-borde);
+        border-radius: 8px;
+        padding: 0.75rem;
+        transition: all 0.3s ease;
+    }
+
+        .form-select:focus {
+            border-color: var(--verde-principal);
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+        }
+
+    .empty-state {
+        text-align: center;
+        padding: 3rem;
+        color: #6B7280;
+    }
+
+        .empty-state i {
+            font-size: 4rem;
+            color: #D1D5DB;
+            margin-bottom: 1rem;
+        }
+</style>
+
+<div class="container-fluid">
+    <!-- Header de la Página -->
+    <div class="page-header">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <h1 class="display-5 fw-bold mb-2">
+                    <i class="fas fa-tags me-3"></i>Gestión de Categorías de Productos
+                </h1>
+                <p class="lead mb-0 opacity-90">Administra las categorías que organizan tu catálogo de productos</p>
+            </div>
+            <div class="col-md-4 text-end">
+                <a asp-action="Create" class="btn btn-light btn-lg fw-bold">
+                    <i class="fas fa-plus-circle me-2"></i>Nueva Categoría
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="stats-number">@Model.Count()</div>
+                <div class="stats-label">Total Categorías</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="stats-number">@Model.Count(c => c.Estado == 1)</div>
+                <div class="stats-label">Categorías Activas</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="stats-number">@Model.Count(c => c.Estado == 0)</div>
+                <div class="stats-label">Categorías Inactivas</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="stats-number">@Model.Count(c => c.FechaCreacion.Date == DateTime.Today)</div>
+                <div class="stats-label">Nuevas Hoy</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filtros -->
+    <div class="filter-card">
+        <div class="row g-3">
+            <div class="col-md-3">
+                <label class="form-label fw-semibold">Estado</label>
+                <select class="form-select" id="estadoFilter">
+                    <option value="">Todas las categorías</option>
+                    <option value="Activa">Activas</option>
+                    <option value="Inactiva">Inactivivas</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label fw-semibold">Buscar</label>
+                <input type="text" class="form-control search-box" id="searchInput" placeholder="Buscar por nombre o descripción...">
+            </div>
+            <div class="col-md-3 d-flex align-items-end">
+                <button class="btn btn-verde w-100" id="btnBuscar">
+                    <i class="fas fa-search me-2"></i>Buscar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabla de Categorías -->
+    <div class="table-container">
+        <div class="table-header">
+            <h5 class="mb-0 fw-bold">
+                <i class="fas fa-list me-2"></i>Lista de Categorías
+            </h5>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-hover mb-0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Estado</th>
+                        <th>Fecha Creación</th>
+                        <th class="text-center">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Any())
+                    {
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="fw-semibold">#@item.IdCategoria</td>
+                                <td class="fw-semibold">@item.NombreCategoria</td>
+                                <td class="text-muted">@(string.IsNullOrEmpty(item.Descripcion) ? "Sin descripción" : item.Descripcion)</td>
+                                <td>
+                                    @if (item.Estado == 1)
+                                    {
+                                        <span class="badge-activa">
+                                            <i class="fas fa-check-circle me-1"></i>Activa
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge-inactiva">
+                                            <i class="fas fa-times-circle me-1"></i>Inactiva
+                                        </span>
+                                    }
+                                </td>
+                                <td>@item.FechaCreacion.ToString("dd/MM/yyyy")</td>
+
+                                <td class="text-center">
+                                    <a asp-action="Edit" asp-route-id="@item.IdCategoria" class="btn btn-action btn-edit" title="Editar">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                    <a asp-action="Details" asp-route-id="@item.IdCategoria" class="btn btn-action btn-details" title="Detalles">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@item.IdCategoria" class="btn btn-action btn-delete" title="Eliminar">
+                                        <i class="fas fa-trash"></i>
+                                    </a>
+
+                                    <!-- BOTÓN NUEVO: ACTIVAR / DESACTIVAR -->
+                                    <form asp-action="ToggleEstado" asp-route-id="@item.IdCategoria" method="post" style="display:inline;">
+                                        <button type="submit" class="btn btn-action"
+                                                style="background: linear-gradient(135deg, #0ea5e9, #38bdf8); color:white; border:none;"
+                                                title="Activar/Desactivar">
+                                            <i class="fas fa-power-off"></i>
+                                        </button>
+                                    </form>
+                                </td>
+
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6">
+                                <div class="empty-state">
+                                    <i class="fas fa-inbox"></i>
+                                    <h4 class="mt-3">No hay categorías registradas</h4>
+                                    <p class="text-muted">Comienza creando tu primera categoría de productos.</p>
+                                    <a asp-action="Create" class="btn btn-verde mt-3">
+                                        <i class="fas fa-plus-circle me-2"></i>Crear Primera Categoría
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('btnBuscar').addEventListener('click', function() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const estadoFilter = document.getElementById('estadoFilter').value;
+            const rows = document.querySelectorAll('tbody tr');
+
+            rows.forEach(row => {
+                if (row.querySelector('.empty-state')) return;
+
+                const nombre = row.cells[1].textContent.toLowerCase();
+                const descripcion = row.cells[2].textContent.toLowerCase();
+                const estado = row.cells[3].textContent.trim();
+
+                const matchesSearch = nombre.includes(searchTerm) || descripcion.includes(searchTerm);
+                const matchesEstado = !estadoFilter || estado.includes(estadoFilter);
+
+                row.style.display = matchesSearch && matchesEstado ? '' : 'none';
+            });
+        });
+
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                document.getElementById('btnBuscar').click();
+            }
+        });
+    </script>
+}

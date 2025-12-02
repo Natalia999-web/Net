@@ -1,0 +1,271 @@
+﻿@model produccion.Models.TbCategoriaProducto
+
+@{
+    ViewData["Title"] = "Detalles de Categoría";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .detail-card {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        border: 1px solid var(--verde-borde);
+        overflow: hidden;
+    }
+
+    .detail-header {
+        background: linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%);
+        color: white;
+        padding: 2rem;
+    }
+
+    .detail-body {
+        padding: 2rem;
+    }
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .info-item {
+        background: #F9FAFB;
+        padding: 1.5rem;
+        border-radius: 8px;
+        border-left: 4px solid var(--verde-principal);
+    }
+
+    .info-label {
+        font-weight: 600;
+        color: var(--verde-oscuro);
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.5rem;
+    }
+
+    .info-value {
+        font-size: 1.1rem;
+        color: #1F2937;
+        font-weight: 500;
+    }
+
+    .badge-detail {
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 0.875rem;
+    }
+
+    .badge-activa {
+        background: linear-gradient(135deg, #10B981, #34D399);
+        color: white;
+    }
+
+    .badge-inactiva {
+        background: linear-gradient(135deg, #EF4444, #F87171);
+        color: white;
+    }
+
+    .action-buttons {
+        background: #F9FAFB;
+        padding: 1.5rem 2rem;
+        border-top: 1px solid #E5E7EB;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .description-box {
+        background: white;
+        border: 2px solid #E5E7EB;
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .empty-description {
+        color: #6B7280;
+        font-style: italic;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="detail-card">
+                <!-- Header -->
+                <div class="detail-header">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h2 class="mb-1">
+                                <i class="fas fa-eye me-2"></i>Detalles de Categoría
+                            </h2>
+                            <p class="mb-0 opacity-90">Información completa de la categoría #@Model.IdCategoria</p>
+                        </div>
+                        <div class="col-auto">
+                            @if (Model.Estado == 1)
+                            {
+                                <span class="badge-detail badge-activa">
+                                    <i class="fas fa-check-circle me-1"></i>@Model.Estado
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="badge-detail badge-inactiva">
+                                    <i class="fas fa-times-circle me-1"></i>@Model.Estado
+                                </span>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuerpo -->
+                <div class="detail-body">
+                    <!-- Grid de Información -->
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="info-label">
+                                <i class="fas fa-fingerprint me-1"></i>ID de Categoría
+                            </div>
+                            <div class="info-value">#@Model.IdCategoria</div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-label">
+                                <i class="fas fa-tag me-1"></i>Nombre
+                            </div>
+                            <div class="info-value">@Model.NombreCategoria</div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-label">
+                                <i class="fas fa-toggle-on me-1"></i>Estado
+                            </div>
+                            <div class="info-value">
+                                @if (Model.Estado == 1)
+                                {
+                                    <span class="badge-detail badge-activa">
+                                        <i class="fas fa-check-circle me-1"></i>@Model.Estado
+                                    </span>
+                                }
+                                else
+                                {
+                                    <span class="badge-detail badge-inactiva">
+                                        <i class="fas fa-times-circle me-1"></i>@Model.Estado
+                                    </span>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-label">
+                                <i class="fas fa-calendar-plus me-1"></i>Fecha de Creación
+                            </div>
+                            <div class="info-value">@Model.FechaCreacion.ToString("dd/MM/yyyy")</div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-label">
+                                <i class="fas fa-calendar-alt me-1"></i>Última Actualización
+                            </div>
+                            <div class="info-value">
+                                @if (Model.FechaActualizacion is DateTime)
+                                {
+                                    @( ((DateTime)Model.FechaActualizacion).ToString("dd/MM/yyyy") )
+                                }
+                                else
+                                {
+                                    @(Model.FechaActualizacion?.ToString() ?? "")
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Descripción -->
+                    <div class="info-label">
+                        <i class="fas fa-align-left me-1"></i>Descripción
+                    </div>
+                    <div class="description-box">
+                        @if (!string.IsNullOrEmpty(Model.Descripcion))
+                        {
+                            <p class="mb-0">@Model.Descripcion</p>
+                        }
+                        else
+                        {
+                            <p class="empty-description mb-0">
+                                <i class="fas fa-info-circle me-1"></i>No hay descripción disponible para esta categoría.
+                            </p>
+                        }
+                    </div>
+                </div>
+
+                <!-- Botones de Acción -->
+                <div class="action-buttons">
+                    <a asp-action="Index" class="btn btn-lg btn-light">
+                        <i class="fas fa-arrow-left me-2"></i>Volver al Listado
+                    </a>
+                    <a asp-action="Edit" asp-route-id="@Model.IdCategoria" class="btn btn-warning btn-lg text-white">
+                        <i class="fas fa-edit me-2"></i>Editar Categoría
+                    </a>
+                </div>
+            </div>
+
+            <!-- Información Adicional -->
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card-verde">
+                        <div class="card-body">
+                            <h5 class="card-title text-verde">
+                                <i class="fas fa-history me-2"></i>Resumen de Actividad
+                            </h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">
+                                    <i class="fas fa-calendar-plus text-success me-2"></i>
+                                    <strong>Creada:</strong> @Model.FechaCreacion.ToString("dd/MM/yyyy")
+                                </li>
+                                <li class="mb-0">
+                                    <i class="fas fa-calendar-alt text-warning me-2"></i>
+                                    <strong>Actualizada:</strong>
+                                    @if (Model.FechaActualizacion is DateTime)
+                                    {
+                                        @( ((DateTime)Model.FechaActualizacion).ToString("dd/MM/yyyy") )
+                                    }
+                                    else
+                                    {
+                                        @(Model.FechaActualizacion?.ToString() ?? "")
+                                    }
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-verde">
+                        <div class="card-body">
+                            <h5 class="card-title text-verde">
+                                <i class="fas fa-info-circle me-2"></i>Estado Actual
+                            </h5>
+                            <p class="mb-2">
+                                Esta categoría está
+                                @if (Model.Estado == 1)
+                                {
+                                    <span class="fw-bold text-success">activa y disponible</span>
+                                    <span> para ser asignada a nuevos productos.</span>
+                                }
+                                else
+                                {
+                                    <span class="fw-bold text-danger">inactiva y no está disponible</span>
+                                    <span> para nuevos productos.</span>
+                                }
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

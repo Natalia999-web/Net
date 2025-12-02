@@ -1,0 +1,412 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\views\\tbproductoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\views\\tbproductoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\views\\tbcategoriaproductoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\views\\tbcategoriaproductoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\controllers\\tbproductoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\controllers\\tbproductoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\migrations\\20251201143912_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\migrations\\20251201143912_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\models\\produccioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\models\\produccioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\views\\tbproductoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\views\\tbproductoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\views\\tbproductoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\views\\tbproductoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\views\\tbproductoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\views\\tbproductoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\views\\tbproductoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\views\\tbproductoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\models\\tbproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\models\\tbproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\views\\tbcategoriaproductoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\views\\tbcategoriaproductoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\controllers\\tbcategoriaproductoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\controllers\\tbcategoriaproductoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\views\\tbcategoriaproductoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\views\\tbcategoriaproductoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\views\\tbcategoriaproductoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\views\\tbcategoriaproductoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\views\\tbcategoriaproductoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\views\\tbcategoriaproductoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\produccion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\produccion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|c:\\users\\user\\desktop\\modulo_producci\u00F3n\\produccion\\produccion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34A20F00-3DFD-2DA7-2759-1A9E4EF12AFA}|produccion\\produccion.csproj|solutionrelative:produccion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "produccion\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "produccion\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAK0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T20:24:58.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Program.cs",
+              "RelativeDocumentMoniker": "produccion\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Program.cs",
+              "RelativeToolTip": "produccion\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T19:29:53.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20251201143912_db.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Migrations\\20251201143912_db.cs",
+              "RelativeDocumentMoniker": "produccion\\Migrations\\20251201143912_db.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Migrations\\20251201143912_db.cs",
+              "RelativeToolTip": "produccion\\Migrations\\20251201143912_db.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAowBEBAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T14:39:12.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbProductoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "produccion\\Views\\TbProductoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbProductoes\\Create.cshtml*",
+              "RelativeToolTip": "produccion\\Views\\TbProductoes\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T20:15:29.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbCategoriaProductoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "produccion\\Views\\TbCategoriaProductoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbCategoriaProductoes\\Create.cshtml",
+              "RelativeToolTip": "produccion\\Views\\TbCategoriaProductoes\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T21:28:15.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TbProductoesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Controllers\\TbProductoesController.cs",
+              "RelativeDocumentMoniker": "produccion\\Controllers\\TbProductoesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Controllers\\TbProductoesController.cs",
+              "RelativeToolTip": "produccion\\Controllers\\TbProductoesController.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAiwLEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T20:19:41.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProduccionContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Models\\ProduccionContext.cs",
+              "RelativeDocumentMoniker": "produccion\\Models\\ProduccionContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Models\\ProduccionContext.cs",
+              "RelativeToolTip": "produccion\\Models\\ProduccionContext.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwDwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T20:05:38.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "produccion\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "produccion\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-01T14:34:16.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbProductoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "produccion\\Views\\TbProductoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbProductoes\\Index.cshtml",
+              "RelativeToolTip": "produccion\\Views\\TbProductoes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T20:26:54.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbProductoes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "produccion\\Views\\TbProductoes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbProductoes\\Edit.cshtml",
+              "RelativeToolTip": "produccion\\Views\\TbProductoes\\Edit.cshtml",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAAwOEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T20:40:50.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbProductoes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "produccion\\Views\\TbProductoes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbProductoes\\Delete.cshtml",
+              "RelativeToolTip": "produccion\\Views\\TbProductoes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T20:44:51.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbProductoes\\Details.cshtml",
+              "RelativeDocumentMoniker": "produccion\\Views\\TbProductoes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbProductoes\\Details.cshtml",
+              "RelativeToolTip": "produccion\\Views\\TbProductoes\\Details.cshtml",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAEwAgBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T20:41:41.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TbProducto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Models\\TbProducto.cs",
+              "RelativeDocumentMoniker": "produccion\\Models\\TbProducto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Models\\TbProducto.cs",
+              "RelativeToolTip": "produccion\\Models\\TbProducto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T20:19:36.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbCategoriaProductoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "produccion\\Views\\TbCategoriaProductoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbCategoriaProductoes\\Index.cshtml",
+              "RelativeToolTip": "produccion\\Views\\TbCategoriaProductoes\\Index.cshtml",
+              "ViewState": "AgIAAEgBAAAAAAAAAIBJwGwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T20:25:54.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbCategoriaProductoes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "produccion\\Views\\TbCategoriaProductoes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbCategoriaProductoes\\Edit.cshtml",
+              "RelativeToolTip": "produccion\\Views\\TbCategoriaProductoes\\Edit.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T20:52:51.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TbCategoriaProductoesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Controllers\\TbCategoriaProductoesController.cs",
+              "RelativeDocumentMoniker": "produccion\\Controllers\\TbCategoriaProductoesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Controllers\\TbCategoriaProductoesController.cs",
+              "RelativeToolTip": "produccion\\Controllers\\TbCategoriaProductoesController.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAABQwKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T20:16:47.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbCategoriaProductoes\\Details.cshtml",
+              "RelativeDocumentMoniker": "produccion\\Views\\TbCategoriaProductoes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbCategoriaProductoes\\Details.cshtml",
+              "RelativeToolTip": "produccion\\Views\\TbCategoriaProductoes\\Details.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T21:27:46.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbCategoriaProductoes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "produccion\\Views\\TbCategoriaProductoes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\TbCategoriaProductoes\\Delete.cshtml",
+              "RelativeToolTip": "produccion\\Views\\TbCategoriaProductoes\\Delete.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T21:28:01.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "produccion\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "produccion\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T21:29:02.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "produccion\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "produccion\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T20:14:02.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "produccion.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\produccion.csproj",
+              "RelativeDocumentMoniker": "produccion\\produccion.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\produccion.csproj",
+              "RelativeToolTip": "produccion\\produccion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-29T20:03:20.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\appsettings.json",
+              "RelativeDocumentMoniker": "produccion\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Modulo_producci\u00F3n\\produccion\\produccion\\appsettings.json",
+              "RelativeToolTip": "produccion\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-29T19:30:50.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

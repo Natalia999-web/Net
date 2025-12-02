@@ -1,0 +1,226 @@
+﻿@model produccion.Models.TbCategoriaProducto
+
+@{
+    ViewData["Title"] = "Editar Categoría";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .form-container {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        border: 1px solid var(--verde-borde);
+        overflow: hidden;
+    }
+
+    .form-header {
+        background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+        color: white;
+        padding: 2rem;
+    }
+
+    .form-body {
+        padding: 2rem;
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: var(--verde-oscuro);
+        margin-bottom: 0.5rem;
+    }
+
+    .form-control-custom {
+        border: 2px solid #E5E7EB;
+        border-radius: 8px;
+        padding: 0.75rem 1rem;
+        transition: all 0.3s ease;
+        font-size: 1rem;
+    }
+
+        .form-control-custom:focus {
+            border-color: var(--verde-principal);
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+        }
+
+    .form-text-help {
+        font-size: 0.875rem;
+        color: #6B7280;
+        margin-top: 0.25rem;
+    }
+
+    .btn-container {
+        background: #F9FAFB;
+        padding: 1.5rem 2rem;
+        border-top: 1px solid #E5E7EB;
+        display: flex;
+        gap: 1rem;
+        justify-content: flex-end;
+    }
+
+    .info-badge {
+        background: var(--verde-fondo);
+        color: var(--verde-oscuro);
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-size: 0.875rem;
+        border-left: 4px solid var(--verde-principal);
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="form-container">
+                <!-- Header del Formulario -->
+                <div class="form-header">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h2 class="mb-1">
+                                <i class="fas fa-edit me-2"></i>Editar Categoría
+                            </h2>
+                            <p class="mb-0 opacity-90">Actualiza la información de la categoría #@Model.IdCategoria</p>
+                        </div>
+                        <div class="col-auto">
+                            <span class="badge bg-light text-warning fs-6">Editando</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Información de la Categoría -->
+                <div class="alert alert-info m-3 mb-0">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <strong><i class="fas fa-info-circle me-2"></i>ID:</strong> #@Model.IdCategoria
+                        </div>
+                        <div class="col-md-6">
+                            <strong><i class="fas fa-calendar me-2"></i>Creada:</strong> @Model.FechaCreacion.ToString("dd/MM/yyyy")
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuerpo del Formulario -->
+                <form asp-action="Edit" id="editForm">
+                    <div class="form-body">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                        <input type="hidden" asp-for="IdCategoria" />
+
+                        <!-- Nombre de la Categoría -->
+                        <div class="mb-4">
+                            <label asp-for="NombreCategoria" class="form-label">
+                                <i class="fas fa-tag me-1"></i>Nombre de la Categoría *
+                            </label>
+                            <input asp-for="NombreCategoria" class="form-control-custom"
+                                   placeholder="Ej: Postres, Bebidas, Comidas..."
+                                   maxlength="100"
+                                   required />
+                            <span asp-validation-for="NombreCategoria" class="text-danger small"></span>
+                            <div class="form-text-help">
+                                El nombre debe ser único y descriptivo para identificar fácilmente la categoría.
+                            </div>
+                        </div>
+
+                        <!-- Descripción -->
+                        <div class="mb-4">
+                            <label asp-for="Descripcion" class="form-label">
+                                <i class="fas fa-align-left me-1"></i>Descripción
+                            </label>
+                            <textarea asp-for="Descripcion" class="form-control-custom"
+                                      rows="4"
+                                      placeholder="Describe brevemente los productos que pertenecerán a esta categoría..."
+                                      maxlength="500"></textarea>
+                            <span asp-validation-for="Descripcion" class="text-danger small"></span>
+                            <div class="form-text-help">
+                                Opcional. Ayuda a otros usuarios a entender el propósito de esta categoría.
+                            </div>
+                        </div>
+
+                        <!-- Estado -->
+                        <div class="mb-4">
+                            <label asp-for="Estado" class="form-label">
+                                <i class="fas fa-toggle-on me-1"></i>Estado *
+                            </label>
+                            <select asp-for="Estado" class="form-control-custom" required>
+                                <option value="Activa">🟢 Activa - Visible para productos</option>
+                                <option value="Inactiva">🔴 Inactiva - No disponible para nuevos productos</option>
+                            </select>
+                            <span asp-validation-for="Estado" class="text-danger small"></span>
+                            <div class="form-text-help">
+                                Las categorías inactivas no estarán disponibles para asignar a nuevos productos.
+                            </div>
+                        </div>
+
+                        <!-- Fecha Actualización -->
+                        <div class="mb-4">
+                            <label asp-for="FechaActualizacion" class="form-label">
+                                <i class="fas fa-calendar-alt me-1"></i>Fecha de Actualización
+                            </label>
+                            <input asp-for="FechaActualizacion" class="form-control-custom"
+                                   type="date"
+                                   required />
+                            <span asp-validation-for="FechaActualizacion" class="text-danger small"></span>
+                            <div class="form-text-help">
+                                Fecha en que se realiza esta modificación.
+                            </div>
+                        </div>
+
+                        <!-- Fecha Creación (solo lectura) -->
+                        <div class="mb-4">
+                            <label class="form-label">
+                                <i class="fas fa-calendar-plus me-1"></i>Fecha de Creación
+                            </label>
+                            <input type="text" class="form-control-custom"
+                                   value="@Model.FechaCreacion.ToString("dd/MM/yyyy")"
+                                   readonly
+                                   style="background-color: #F9FAFB;" />
+                            <div class="form-text-help">
+                                Fecha original de creación (no editable).
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Botones de Acción -->
+                    <div class="btn-container">
+                        <a asp-action="Index" class="btn btn-lg btn-light">
+                            <i class="fas fa-arrow-left me-2"></i>Volver al Listado
+                        </a>
+                        <button type="submit" class="btn btn-warning btn-lg text-white">
+                            <i class="fas fa-save me-2"></i>Guardar Cambios
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Establecer fecha actual como fecha de actualización
+        document.getElementById('FechaActualizacion').value = new Date().toISOString().split('T')[0];
+
+        // Validación del formulario
+        document.getElementById('editForm').addEventListener('submit', function(e) {
+            const nombre = document.getElementById('NombreCategoria').value.trim();
+            const estado = document.getElementById('Estado').value;
+
+            if (!nombre) {
+                e.preventDefault();
+                alert('Por favor, ingresa un nombre para la categoría');
+                return false;
+            }
+
+            if (!estado) {
+                e.preventDefault();
+                alert('Por favor, selecciona un estado para la categoría');
+                return false;
+            }
+
+            return true;
+        });
+    </script>
+}
