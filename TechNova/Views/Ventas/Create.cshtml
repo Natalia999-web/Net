@@ -1,0 +1,139 @@
+﻿@model TechNova.Models.NuevaVentaViewModel
+
+@{
+    ViewData["Title"] = "Nueva Venta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-primary fw-bold mb-4">Nueva Venta</h1>
+
+<div class="card shadow-sm border-primary">
+    <div class="card-header bg-primary text-white">
+        <h5 class="mb-0">
+            <i class="fa fa-cash-register"></i> Registro de Venta
+        </h5>
+    </div>
+
+    <div class="card-body">
+        <form asp-action="Create" method="post" id="formVenta">
+
+            <!-- CLIENTE -->
+            <div class="mb-4">
+                <label asp-for="ClienteId" class="form-label fw-semibold">Cliente</label>
+                <select asp-for="ClienteId" asp-items="ViewBag.ClienteId" class="form-select"></select>
+                <span asp-validation-for="ClienteId" class="text-danger"></span>
+            </div>
+
+            <!-- PRODUCTOS -->
+            <h5 class="text-primary fw-bold mb-3">Productos</h5>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-primary text-center">
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Stock</th>
+                            <th style="width:120px;">Cantidad</th>
+                            <th>Seleccionar</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @for (int i = 0; i < Model.Productos.Count; i++)
+                        {
+                            <tr>
+                                <td>@Model.Productos[i].Nombre</td>
+
+                                <td>
+                                    $@Model.Productos[i].Precio.ToString("N2")
+                                    <input type="hidden" name="Productos[@i].Precio"
+                                           value="@Model.Productos[i].Precio" class="precio" />
+                                </td>
+
+                                <td>
+                                    @Model.Productos[i].Stock
+                                    <input type="hidden" name="Productos[@i].Stock"
+                                           value="@Model.Productos[i].Stock" />
+                                </td>
+
+                                <td>
+                                    <input type="number"
+                                           name="Productos[@i].Cantidad"
+                                           value="@Model.Productos[i].Cantidad"
+                                           min="1"
+                                           max="@Model.Productos[i].Stock"
+                                           class="form-control cantidad text-center" />
+                                </td>
+
+                                <td class="text-center">
+                                    <input type="checkbox"
+                                           name="Productos[@i].Seleccionado"
+                                           class="form-check-input seleccionado"
+                                           value="true" />
+
+                                    <input type="hidden" name="Productos[@i].ProductoId"
+                                           value="@Model.Productos[i].ProductoId" />
+
+                                    <input type="hidden" name="Productos[@i].Nombre"
+                                           value="@Model.Productos[i].Nombre" />
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- TOTAL -->
+            <div class="row mt-4">
+                <div class="col-md-4 ms-auto">
+                    <label class="form-label fw-semibold">Total</label>
+                    <input asp-for="Total" readonly class="form-control fw-bold text-end" id="total" />
+                    <span asp-validation-for="Total" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- BOTONES -->
+            <div class="d-flex justify-content-between mt-4">
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fa fa-arrow-left"></i> Volver
+                </a>
+
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-save"></i> Registrar Venta
+                </button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function actualizarTotal() {
+            let total = 0;
+            const filas = document.querySelectorAll("tbody tr");
+
+            filas.forEach(fila => {
+                const checkbox = fila.querySelector('.seleccionado');
+                const cantidadInput = fila.querySelector('.cantidad');
+                const precio = parseFloat(fila.querySelector('.precio').value);
+
+                if (checkbox.checked) {
+                    const cantidad = parseInt(cantidadInput.value) || 0;
+                    total += precio * cantidad;
+                }
+            });
+
+            document.getElementById('total').value = total.toFixed(2);
+        }
+
+        document.querySelectorAll('.seleccionado, .cantidad').forEach(el => {
+            el.addEventListener('change', actualizarTotal);
+        });
+
+        actualizarTotal();
+    </script>
+
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

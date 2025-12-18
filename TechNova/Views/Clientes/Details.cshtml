@@ -1,0 +1,38 @@
+﻿@model TechNova.Models.Cliente
+
+@{
+    ViewData["Title"] = "Detalles Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Detalles del Cliente</h1>
+
+<hr />
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Información del Cliente</h5>
+                <dl class="row mt-3">
+                    <dt class="col-sm-4">Nombre Completo:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.NombreCompleto)</dd>
+
+                    <dt class="col-sm-4">Correo:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Correo)</dd>
+
+                    <dt class="col-sm-4">Dirección:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Direccion)</dd>
+
+                    <dt class="col-sm-4">Teléfono:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Telefono)</dd>
+                </dl>
+
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-action="Index" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Volver</a>
+                    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary"><i class="fa fa-edit"></i> Editar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

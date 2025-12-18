@@ -1,0 +1,84 @@
+﻿@model TechNova.Models.Cliente
+
+@{
+    ViewData["Title"] = "Eliminar Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Eliminar Cliente</h1>
+
+<hr />
+
+<!-- Alerta elegante si hay error -->
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert-morado animate__animated animate__fadeInDown">
+        <button onclick="this.parentElement.style.display='none'">&times;</button>
+        <strong>No se puede eliminar este cliente.</strong> Tiene ventas asociadas.
+    </div>
+}
+
+<div class="row justify-content-center mt-3">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title text-danger">
+                    <i class="fa fa-exclamation-triangle"></i> ¿Está seguro que desea eliminar este cliente?
+                </h5>
+
+                <dl class="row mt-3">
+                    <dt class="col-sm-4">Nombre Completo:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.NombreCompleto)</dd>
+
+                    <dt class="col-sm-4">Correo:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Correo)</dd>
+
+                    <dt class="col-sm-4">Dirección:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Direccion)</dd>
+
+                    <dt class="col-sm-4">Teléfono:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Telefono)</dd>
+                </dl>
+
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="fa fa-arrow-left"></i> Volver
+                    </a>
+
+                    <form asp-action="Delete" method="post" class="m-0">
+                        <input type="hidden" asp-for="Id" />
+                        <button type="submit" class="btn btn-danger">
+                            <i class="fa fa-trash"></i> Eliminar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Estilos para la alerta morada -->
+<style>
+    .alert-morado {
+        background: #8b5fbf;
+        color: #fff;
+        padding: 15px 20px;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0,0,0,.15);
+        font-weight: 500;
+        position: relative;
+    }
+
+        .alert-morado button {
+            position: absolute;
+            top: 6px;
+            right: 10px;
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 22px;
+            line-height: 20px;
+            cursor: pointer;
+        }
+</style>

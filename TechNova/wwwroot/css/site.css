@@ -1,0 +1,49 @@
+/* Navbar links hover */
+.navbar-custom .nav-link:hover {
+    background-color: #47266d;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #6A4BB8;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .btn-primary:hover {
+        background-color: #5D3B8C;
+    }
+
+.btn-secondary {
+    background-color: #ffffff;
+    color: #6A4BB8;
+    border: 2px solid #6A4BB8;
+}
+
+    .btn-secondary:hover {
+        background-color: #6A4BB8;
+        color: white;
+    }
+
+/* Tarjetas para ventas o info */
+.card {
+    background: #F3E5F5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+/* Encabezados principales */
+h1, h2, h3 {
+    color: #3c1f70;
+}

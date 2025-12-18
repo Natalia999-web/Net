@@ -1,0 +1,41 @@
+﻿@model TechNova.Models.VentaDetalle
+@{
+    ViewData["Title"] = "Detalle de Venta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Detalle de Venta</h1>
+
+<hr />
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Información del Detalle</h5>
+
+                <dl class="row mt-3">
+                    <dt class="col-sm-4">Cantidad:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Cantidad)</dd>
+
+                    <dt class="col-sm-4">Precio Unitario:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Precio)</dd>
+
+                    <dt class="col-sm-4">Subtotal:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Subtotal)</dd>
+
+                    <dt class="col-sm-4">Producto:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Producto.Id)</dd>
+
+                    <dt class="col-sm-4">Venta:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Venta.Id)</dd>
+                </dl>
+
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-action="Index" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Volver</a>
+                    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary"><i class="fa fa-edit"></i> Editar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

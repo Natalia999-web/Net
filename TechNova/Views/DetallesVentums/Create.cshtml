@@ -1,0 +1,66 @@
+﻿@model TechNova.Models.VentaDetalle
+@{
+    ViewData["Title"] = "Crear Detalle de Venta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Crear Detalle de Venta</h1>
+
+<hr />
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="VentaId" class="form-label"></label>
+                        <select asp-for="VentaId" class="form-control" asp-items="ViewBag.VentaId">
+                            <option value="">Seleccione una venta</option>
+                        </select>
+                        <span asp-validation-for="VentaId" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="ProductoId" class="form-label"></label>
+                        <select asp-for="ProductoId" class="form-control" asp-items="ViewBag.ProductoId">
+                            <option value="">Seleccione un producto</option>
+                        </select>
+                        <span asp-validation-for="ProductoId" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Cantidad" class="form-label"></label>
+                        <input asp-for="Cantidad" class="form-control" placeholder="Ingrese la cantidad" />
+                        <span asp-validation-for="Cantidad" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Precio" class="form-label"></label>
+                        <input asp-for="Precio" class="form-control" placeholder="Ingrese el precio unitario" />
+                        <span asp-validation-for="Precio" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Subtotal" class="form-label"></label>
+                        <input asp-for="Subtotal" class="form-control" placeholder="Subtotal" />
+                        <span asp-validation-for="Subtotal" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Index" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Volver</a>
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Crear</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
